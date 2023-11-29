@@ -53,7 +53,7 @@ config :hello, HelloWeb.Endpoint,
 config :hello, HelloWeb.Endpoint,
   live_reload: [
     patterns: [
-      ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
+      ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg|pdf)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/hello_web/(controllers|live|components)/.*(ex|heex)$"
     ]

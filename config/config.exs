@@ -12,7 +12,8 @@ config :hello,
   generators: [timestamp_type: :utc_datetime]
 
 # Configures the endpoint
-config :hello, HelloWeb.Endpoint,
+config :hello, HelloWeb.Endpoint, 
+  server: true,
   url: [host: "localhost"],
   adapter: Phoenix.Endpoint.Cowboy2Adapter,
   render_errors: [
